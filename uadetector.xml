@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>System - User Agent Detector</name>
+	<author>Rene Kreijveld</author>
+	<creationDate>Februari 2013</creationDate>
+	<copyright>Copyright (C) 2013 ReneKreijveld.nl. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@renekreijveld.nl</authorEmail>
+	<authorUrl>www.renekreijveld.nl</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[ 
+		<h1 style="margin-left:0;">User Agent Detector</h1>
+		<p style="font-family:arial,helvetica,sans-serif; font-size: 12px;">This plugin detects the user agent and sets a session variable accordingly.<br>
+		Based on the user agent, the plugin detects if the site is running on a desktop pc, tablet or smartphone. It can also detect if the visitor is a spider bot (search engine).<br><br>
+		Session variable that is set: <strong>ualayout</strong>.<br>
+		Possible values: <strong>desktop</strong>, <strong>tablet</strong>, <strong>mobile</strong>, <strong>bot</strong>.<br><br>
+		Example code to check the value of ualayout:</p>
+		<pre style="font-size:13px;">&lt;?php
+$session = JFactory::getSession();
+$ualayout = $session-&gt;get('ualayout');
+?&gt;
+&lt;link rel="stylesheet" href="/templates/mytemplates/css/template.css" type="text/css" /&gt;
+&lt;?php if($ualayout == "desktop") {?&gt;
+&lt;link rel="stylesheet" href="/templates/mytemplates/css/desktop.css" type="text/css" /&gt;
+&lt;?php } ?&gt;
+&lt;?php if($ualayout == "tablet") {?&gt;
+&lt;link rel="stylesheet" href="/templates/mytemplates/css/tablet.css" type="text/css" /&gt;
+&lt;?php } ?&gt;
+&lt;?php if($ualayout == "mobile") {?&gt;
+&lt;link rel="stylesheet" href="/templates/mytemplates/css/mobile.css" type="text/css" /&gt;
+&lt;?php } ?&gt;</pre>
+		<p style="font-family:arial,helvetica,sans-serif; font-size: 12px;">Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>.<br>
+		Makes use of <strong><a href="http://http://mobiledetect.net/" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
+	]]></description>
+	<files>
+		<filename plugin="uadetector">uadetector.php</filename>
+		<filename>README.md</filename>
+		<folder>lib</folder>
+	</files>
+</extension>
