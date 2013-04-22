@@ -14,4 +14,6 @@ Functions
 
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
 
-  
+22-04-2013: Major update.
+Please uninstall the old version first and then install this new one. The plugin is now setup with a Joomla Extension Update server.
+Now you can easily install updates by using the Joomla updater. There is no need anymore to manually update the Mobile_Detect.php library. This will now be updated to the latest version through the Joomla updater. Thanks Peter Martin @pe7er for this tip!
