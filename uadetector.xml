@@ -15,7 +15,7 @@
 		Session variable that is set: <strong>ualayout</strong>.<br>
 		Possible values: <strong>desktop</strong>, <strong>tablet</strong>, <strong>mobile</strong>, <strong>bot</strong>.<br><br>
 		Example code to check the value of ualayout:</p>
-		<pre style="font-size:13px;">&lt;?php
+		<pre style="font-size:13px;text-align:left">&lt;?php
 $session = JFactory::getSession();
 $ualayout = $session-&gt;get('ualayout');
 ?&gt;
