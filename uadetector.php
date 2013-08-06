@@ -1,7 +1,9 @@
 <?php
 /**
  * ---------------------------------------------------------------------------------------------------------
- * 	User Agent detector plugin
+ * User Agent detector plugin
+ *
+ * Version 1.0.5
  *
  * Copyright (C) 2013 Rene Kreijveld. All rights reserved.
  *
