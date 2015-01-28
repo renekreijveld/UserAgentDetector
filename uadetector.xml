@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="2.5" type="plugin" group="system" method="upgrade">
+<extension version="3.1" type="plugin" group="system" method="upgrade">
 	<name>System - User Agent Detector</name>
 	<author>Rene Kreijveld</author>
 	<creationDate>Februari 2013</creationDate>
@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>info@renekreijveld.nl</authorEmail>
 	<authorUrl>www.renekreijveld.nl</authorUrl>
-	<version>1.0.5</version>
+	<version>1.0.7</version>
 	<description><![CDATA[ 
 		<h1 style="margin-left:0;text-align:left;">User Agent Detector</h1>
 		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">This plugin detects the user agent and sets a session variable accordingly.<br>
