@@ -15,6 +15,10 @@ Functions
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
 
 27-04-2015: Mobile detect update
+Mobile_detect library updated to version 2.8.16.
+UserAgentDetector now version 1.0.9.
+
+27-04-2015: Mobile detect update
 Mobile_detect library updated to version 2.8.13.
 
 28-01-2015: Mobile detect update
