@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>info@renekreijveld.nl</authorEmail>
 	<authorUrl>www.renekreijveld.nl</authorUrl>
-	<version>1.0.10</version>
+	<version>1.0.11</version>
 	<description><![CDATA[ 
 		<h1 style="margin-left:0;text-align:left;">User Agent Detector</h1>
 		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">This plugin detects the user agent and sets a session variable accordingly.<br>
@@ -29,13 +29,16 @@ $ualayout = $session-&gt;get('ualayout');
 &lt;?php if($ualayout == "mobile") {?&gt;
 &lt;link rel="stylesheet" href="/templates/mytemplates/css/mobile.css" type="text/css" /&gt;
 &lt;?php } ?&gt;</pre>
-		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.10</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentDetector" target="_blank">github</a></strong>.<br>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.11</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentDetector" target="_blank">github</a></strong>.<br>
 		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
 		<hr>
 		<h3>Version history:</h3>
-		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;"><strong>1.0.10</strong>: Simple update to avoid joomla to keep asking to update the plugin, little mismatch from downloaded xml file and the one to check with. Thanks <a href="https://github.com/UberGruber" target=_blank>UberGruber</a>.<br/>
-		<strong>1.0.9</strong>: Update Mobile_Detect to version 2.8.16.<br/>
-		<strong>1.0.8-1.0.0</strong>: Previous versions (details later).</p>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">
+			<strong>1.0.11</strong>: Added test if class was loaded. If not, default to desktop.<br/>
+			<strong>1.0.10</strong>: Simple update to avoid joomla to keep asking to update the plugin, little mismatch from downloaded xml file and the one to check with. Thanks <a href="https://github.com/UberGruber" target=_blank>UberGruber</a>.<br/>
+			<strong>1.0.9</strong>: Update Mobile_Detect to version 2.8.16.<br/>
+			<strong>1.0.8-1.0.0</strong>: Previous versions (details later).
+		</p>
 	]]></description>
 	<files>
 		<filename plugin="uadetector">uadetector.php</filename>

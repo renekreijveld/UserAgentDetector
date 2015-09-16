@@ -3,7 +3,7 @@
  * ---------------------------------------------------------------------------------------------------------
  * User Agent detector plugin
  *
- * Version 1.0.9
+ * Version 1.0.11
  *
  * Copyright (C) 2013 Rene Kreijveld. All rights reserved.
  *
@@ -25,14 +25,23 @@ class plgSystemUadetector extends JPlugin
 {
 	public function onAfterInitialise()
 	{
-		include_once(dirname(__FILE__).'/lib/Mobile_Detect.php');
+		include_once( dirname(__FILE__) . '/lib/Mobile_Detect.php' );
 
-		$detect = new Mobile_Detect();
-		$layout = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'mobile') : 'desktop');
-		if (($detect->is('Bot')) || ($detect->is('MobileBot'))) $layout = 'bot';
+		if ( class_exists( 'Mobile_Detect' ) )
+		{
+			$detect = new Mobile_Detect();
+			$layout = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'mobile') : 'desktop');
+			if ( $detect->is('Bot') || $detect->is('MobileBot') ) $layout = 'bot';
 
-		// store user agent layout in session variable.
-		$session = JFactory::getSession();
-		$session->set('ualayout', $layout);
+			// store user agent layout in session variable.
+			$session = JFactory::getSession();
+			$session->set('ualayout', $layout);
+		}
+		else
+		{
+			// class not present, default to desktop
+			$session = JFactory::getSession();
+			$session->set('ualayout', 'desktop');
+		}
 	}
 }
