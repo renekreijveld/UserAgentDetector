@@ -14,7 +14,7 @@ Functions
 
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
 
-16-09-2015: Added test if class was correctly loaded. Of not, default to desktop
+16-09-2015: Added test if class was correctly loaded. Of not, default to desktop.
 UserAgentDetector now version 1.0.11.
 
 07-09-2015: Update fix in XML file, thanks UberGruber (https://github.com/UberGruber).
