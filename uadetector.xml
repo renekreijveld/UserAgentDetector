@@ -30,7 +30,7 @@ $ualayout = $session-&gt;get('ualayout');
 &lt;?php if($ualayout == "mobile") {?&gt;
 &lt;link rel="stylesheet" href="/templates/mytemplates/css/mobile.css" type="text/css" /&gt;
 &lt;?php } ?&gt;</pre>
-		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.11</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentDetector" target="_blank">github</a></strong>.<br>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.12</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentDetector" target="_blank">github</a></strong>.<br>
 		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
 		<hr>
 		<h3>Version history:</h3>
