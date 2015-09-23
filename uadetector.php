@@ -3,7 +3,7 @@
  * ---------------------------------------------------------------------------------------------------------
  * User Agent detector plugin
  *
- * Version 1.0.11
+ * Version 1.0.12
  *
  * Copyright (C) 2013 Rene Kreijveld. All rights reserved.
  *
