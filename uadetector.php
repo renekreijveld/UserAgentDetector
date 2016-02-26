@@ -3,9 +3,9 @@
  * ---------------------------------------------------------------------------------------------------------
  * User Agent detector plugin
  *
- * Version 1.0.12
+ * Version 1.0.13
  *
- * Copyright (C) 2013 Rene Kreijveld. All rights reserved.
+ * Copyright (C) 2016 Rene Kreijveld. All rights reserved.
  *
  * User Agent detector is free software and is distributed under the GNU General Public License,
  * and as distributed it may include or be derivative of works licensed under the GNU
