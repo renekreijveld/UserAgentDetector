@@ -10,9 +10,13 @@ Functions
 
 * Session variable that is set: ualayout. Possible values: desktop, tablet, mobile, bot.
 
-* Download the installer file here: http://www.rkrweb.nl/update/plg_system_useragentdetector/plg_system_useragentdetector.1.0.13.zip
+* Download the installer file here: http://www.rkrweb.nl/update/plg_system_useragentdetector/plg_system_useragentdetector.1.0.14.zip
 
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
+
+06-09-2016: Mobile detect update
+Mobile_detect library updated to version 2.8.22.
+UserAgentDetector now version 1.0.14.
 
 26-02-2016: Mobile detect update
 Mobile_detect library updated to version 2.8.19.
