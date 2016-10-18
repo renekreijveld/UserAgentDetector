@@ -3,7 +3,7 @@
  * ---------------------------------------------------------------------------------------------------------
  * User Agent detector plugin
  *
- * Version 1.0.14
+ * Version 1.0.15
  *
  * Copyright (C) 2016 Rene Kreijveld. All rights reserved.
  *
@@ -25,7 +25,11 @@ class plgSystemUadetector extends JPlugin
 {
 	public function onAfterInitialise()
 	{
-		include_once( dirname(__FILE__) . '/lib/Mobile_Detect.php' );
+		// If class Mobile_Detect does not exist load include file.
+		if (!class_exists('Mobile_Detect'))
+		{
+			include_once( dirname(__FILE__) . '/lib/Mobile_Detect.php' );
+		}
 
 		if ( class_exists( 'Mobile_Detect' ) )
 		{
