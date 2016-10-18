@@ -10,6 +10,8 @@
 	<version>1.0.15</version>
 	<description><![CDATA[
 		<h1 style="margin-left:0;text-align:left;">User Agent Detector</h1>
+		<div class="alert alert-info"><h2 style="margin-left:0;text-align:left;">New! Want to use a completely different template for your mobile visitors?<br>
+			Try my new <a href="https://github.com/renekreijveld/UserAgentTemplateSwitcher" target="_blank">User Agent Template Switcher</a> plugin.</h2></div>
 		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">After installation <a href="index.php?option=com_plugins&view=plugins&filter_search=User%20Agent%20Detector">publish the User Agent Detector plugin</a>.</p>
 		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">This plugin detects the user agent and sets a session variable accordingly.<br>
 		Based on the user agent, the plugin detects if the site is running on a desktop pc, tablet or smartphone. It can also detect if the visitor is a spider bot (search engine).<br><br>
