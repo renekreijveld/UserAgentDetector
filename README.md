@@ -2,11 +2,14 @@ User Agent Detector
 ====================================
 
 This system plugin detects the user agent of your website visitor and sets a session variable accordingly.
-Based on the user agent, the plugin detects if the site is running on a desktop pc, tablet or smartphone. It can also detect if the visitor is a spider bot (search engine).
-The session variable that is set is: ualayout. Possible values: desktop, tablet, mobile, bot.
-Download the installer file here: http://www.rkrweb.nl/update/plg_system_useragentdetector/plg_system_useragentdetector.1.0.16.zip
-This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
 
+Based on the user agent, the plugin detects if the site is running on a desktop pc, tablet or smartphone. It can also detect if the visitor is a spider bot (search engine).
+
+The session variable that is set is: ualayout. Possible values: desktop, tablet, mobile, bot.
+
+Download the installer file here: http://www.rkrweb.nl/update/plg_system_useragentdetector/plg_system_useragentdetector.1.0.16.zip
+
+This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
 
 # Version history
 
